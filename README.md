@@ -6,6 +6,7 @@
 
 ### 使用说明
 ******
+:heart: apk是我用网上auto.js打包工具打包的，安全性未知，不过我也在用，若出现任何问题与本人无关。apk下载地址[点我](https://github.com/ErazerControl/2019double11/releases):heart:
 :heart:[10-23]感谢star的小伙伴，已发布apk包 :heart: 
 
 ### 使用说明
