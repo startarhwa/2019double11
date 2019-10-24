@@ -4,9 +4,10 @@
 
 **:warning:另郑重告之，使用脚本带来的后果自负，且严禁一切商业使用行为！:warning:**  
 
-### 使用说明
+### 公告
 ******
-:heart: apk是我用网上auto.js打包工具打包的，安全性未知，不过我也在用，若出现任何问题与本人无关。apk下载地址[点我](https://github.com/ErazerControl/2019double11/releases):heart:
+:heart:[10-24]发布[double11v1.1.0beta版本](https://github.com/ErazerControl/2019double11/releases)，新增签到任务功能:heart:
+:heart:[10-24]apk是我用网上auto.js打包工具打包的，安全性未知，不过我也在用，若出现任何问题与本人无关。apk下载地址[点我](https://github.com/ErazerControl/2019double11/releases):heart:
 :heart:[10-23]感谢star的小伙伴，已发布apk包 :heart: 
 
 ### 使用说明
@@ -32,9 +33,12 @@
 ### 功能简介
 ******
 * 完成浏览15s广告获喵币的任务
-
+* 完成签到任务
 ### 版本历史
 ******
+# v1.1.0
+###### 2019/10/24
+* `新增` 完成“签到”任务
 # v1.0.0
 ###### 2019/10/23
 * `新增` 完成“去进店”的20个任务
