@@ -6,14 +6,15 @@
 
 ### 公告
 ******
-:heart:[10-24]发布[double11v1.1.0beta版本](https://github.com/ErazerControl/2019double11/releases)，新增签到任务功能:heart:
-:heart:[10-24]apk是我用网上auto.js打包工具打包的，安全性未知，不过我也在用，若出现任何问题与本人无关。apk下载地址[点我](https://github.com/ErazerControl/2019double11/releases):heart:
-:heart:[10-23]感谢star的小伙伴，已发布apk包 :heart: 
+- :heart:[10-26]发布[double11v1.2.0](https://github.com/ErazerControl/2019double11/releases),新增在运行脚本前检测无障碍状态，未开启将跳转至设置页面，请在开启后返回至脚本运行界面！否则会导致脚本运行失败！！:heart:
+- :heart:[10-24]发布[double11v1.1.0beta版本](https://github.com/ErazerControl/2019double11/releases)，新增签到任务功能:heart:
+- :heart:[10-24]apk是我用网上auto.js打包工具打包的，安全性未知，不过我也在用，若出现任何问题与本人无关。apk下载地址[double11v1.0.0](https://github.com/ErazerControl/2019double11/releases):heart:
+- :heart:[10-23]感谢star的小伙伴，已发布apk包 :heart: 
 
 ### 使用说明
 ******
 1. 下载并安装apk
-2. 手机对下载的应用开启无障碍模式 MIUI10设置步骤为 设置->更多设置->无障碍->已下载的服务->对main开启服务
+2. 手机对下载的应用开启无障碍模式 MIUI10设置步骤为 设置->更多设置->无障碍->已下载的服务->对main开启服务（也可能叫double11/auto.js）
 3. 打开淘宝喵铺主页
 4. 打开安装好的应用即可  
 ![设置无障碍](https://github.com/ErazerControl/2019double11/blob/master/images/settings.png)
@@ -36,6 +37,9 @@
 * 完成签到任务
 ### 版本历史
 ******
+# v1.2.0
+###### 2019/10/26
+* `修改` 智能检测无障碍模式是否开启
 # v1.1.0
 ###### 2019/10/24
 * `新增` 完成“签到”任务
