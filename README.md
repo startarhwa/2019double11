@@ -18,7 +18,8 @@
 2. 打开淘宝喵铺主页 
 3. 运行double11
 4. 脚本会检测无障碍模式，若未开启会自动跳转至设置页面，请手动开启后返回至double11运行页面以免脚本运行失败
-5. 音量+键可以终止脚本
+5. 音量+键可以终止脚本  
+
 ![淘宝喵铺主页](https://github.com/ErazerControl/2019double11/blob/master/images/taobao.jpg)
 ![设置无障碍](https://github.com/ErazerControl/2019double11/blob/master/images/settings.jpg)
 ![double11运行页面](https://github.com/ErazerControl/2019double11/blob/master/images/run.jpg)
