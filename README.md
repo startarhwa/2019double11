@@ -12,13 +12,19 @@
 - :heart:[10-24]apk是我用网上auto.js打包工具打包的，安全性未知，不过我也在用，若出现任何问题与本人无关。apk下载地址[double11v1.0.0](https://github.com/ErazerControl/2019double11/releases)
 - :heart:[10-23]感谢star的小伙伴，已发布apk包 
 
+### 为我助力
+:pray::pray:代码调试真的不容易，感觉还不错的话帮我队助个力呀~ :pray::pray:
+
+![助力](https://github.com/ErazerControl/2019double11/blob/master/images/helpme.png)
+
 ### 使用说明
 ******
 1. 下载并安装double11
 2. 打开淘宝喵铺主页 
 3. 运行double11
 4. 脚本会检测无障碍模式，若未开启会自动跳转至设置页面，请手动开启后返回至double11运行页面以免脚本运行失败
-5. 音量+键可以终止脚本  
+5. 脚本会先执行浏览广告任务，之后会执行店铺签到
+6. 音量+键可以终止脚本  
 
 ![淘宝喵铺主页](https://github.com/ErazerControl/2019double11/blob/master/images/taobao.jpg)
 ![设置无障碍](https://github.com/ErazerControl/2019double11/blob/master/images/settings.jpg)
