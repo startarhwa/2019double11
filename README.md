@@ -6,6 +6,10 @@
 
 ### 公告
 ******
+- :heart:[10-28]发布[double11v2.1.0](https://github.com/ErazerControl/2019double11/releases)
+1. 修复浏览广告时遇到视频出错的bug
+2. 修复误点便宜好货的bug
+3. 新增4家签到店铺
 - :heart:[10-27]发布[double11v2.0.0](https://github.com/ErazerControl/2019double11/releases),新增20+家店铺签到，感谢代码贡献者[@zijinggao](https://github.com/zijinggao)
 - :heart:[10-26]发布[double11v1.2.0](https://github.com/ErazerControl/2019double11/releases),新增在运行脚本前检测无障碍状态，未开启将跳转至设置页面，请在开启后返回至脚本运行界面！否则会导致脚本运行失败！！
 - :heart:[10-24]发布[double11v1.1.0](https://github.com/ErazerControl/2019double11/releases)，新增签到任务功能
@@ -32,7 +36,8 @@
 
 ### 效果展示
 ******
-![展示](https://github.com/ErazerControl/2019double11/blob/master/images/show.gif)
+![自动签到店铺展示](https://github.com/ErazerControl/2019double11/blob/master/images/checkin.gif)
+![自动完成任务展示](https://github.com/ErazerControl/2019double11/blob/master/images/show.gif)  
 
 ### 开发者说明
 ******
@@ -48,6 +53,11 @@
 * 完成签到任务
 ### 版本历史
 ******
+# v2.1.0
+###### 2019/10/28
+* `修复` 浏览广告时遇到视频出错
+* `修复` 选择店铺时误点便宜好货
+* `新增` 4家签到店铺
 # v2.0.0
 ###### 2019/10/27
 * `新增` 20+家店铺主页签到

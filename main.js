@@ -5,7 +5,7 @@ var shops = ["欧莱雅官方旗舰店", "美的官方旗舰店", "GREE格力官
     "荣耀官方旗舰店", "vivo官方旗舰店", "OPPO官方旗舰店", "李宁官方网店", "olay官方旗舰店", "YSL圣罗兰美妆官方旗舰店",
     "蒙牛旗舰店", "自然堂旗舰店", "KIEHL'S科颜氏官方旗舰店", "Lancome兰蔻官方旗舰店", "雅诗兰黛官方旗舰店天猫店",
     "美特斯邦威官方网店", "宝洁官方旗舰店", "adidas官方旗舰店", "奥克斯旗舰店", "海尔官方旗舰店", "HR赫莲娜官方旗舰店",
-    "阿玛尼美妆官方旗舰店", "波司登官方旗舰店"]
+    "阿玛尼美妆官方旗舰店", "波司登官方旗舰店", "SK-II官方旗舰店", "百雀羚旗舰店", "戴森官方旗舰店", "ZARA官方旗舰店"]
 sleep(3000);
 launchApp(appName);
 sleep(3000);
@@ -26,7 +26,7 @@ execShopCheckin(shops);
 toast("任务完成")
 function execTask() {
     while (true) {
-        var target = text("签到").findOnce() || text("去进店").findOnce() || text("去浏览").findOnce();
+        var target = text("去进店").findOne(2000) || text("去浏览").findOne(500) || text("签到").findOne(500);
         if (target == null) {
             break;
         }
@@ -45,7 +45,7 @@ function execTask() {
     }
 }
 function viewWeb(time) {
-    gesture(1000, [300, 600], [300, 300]);
+    gesture(1000, [300, device.height - 300], [300, device.height - 500]);
     var cnt = 1;
     while (true) {
         var finish = desc("任务完成").exists() || descStartsWith("已获得").exists();
@@ -76,10 +76,14 @@ function shopCheckin(shopName) {
         sleep(500);
         depth(9).indexInParent(2).text("搜索").findOne(5000).click();
         //点击店铺
-        classNameStartsWith("android.support.v7.app").depth(11).indexInParent(2).clickable(true).findOne(5000).click();
+        var shopText = text("店铺").findOne(5000);
+        var currentShop = shopText.parent().parent().parent();
+        currentShop.click();
         //点击进店
         // var jindian = depth(15).indexInParent(0).text("进店").findOne(3000).parent();
-        var jindian = depth(15).indexInParent(0).descContains(shopName[i]).clickable(true).findOne(3000) || depth(20).indexInParent(0).textContains(shopName[i]).clickable(true).findOne(3000);
+        var jindian = depth(15).indexInParent(0).descContains(shopName[i]).clickable(true).findOne(3000) ||
+            depth(20).indexInParent(0).textContains(shopName[i]).clickable(true).findOne(1000)
+            || depth(19).indexInParent(0).textContains(shopName[i]).clickable(true).findOne(1000);
         if (jindian) {
             jindian.click();
             //双十一父亲 indexinparent(1) depth(10)
