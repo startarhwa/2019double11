@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-14T04:20:01.729Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3879.400 QQBrowser/10.8.4552.400" etag="FhS9ZVZaTsVE5z6MYH0X" version="16.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-14T05:26:16.625Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3879.400 QQBrowser/10.8.4552.400" etag="v0EpC7q7bL29p8wj13YW" version="16.2.6" type="github">
   <diagram id="6I0OCvxSQrVGMHxT2VVA" name="Page-1">
     <mxGraphModel dx="2523" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -95,7 +95,7 @@
           <mxGeometry x="210" y="345" width="125" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Wx5ZZBHen5_xB31L8kOz-18" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="390" y="260" width="640" height="230" as="geometry" />
+          <mxGeometry x="390" y="260" width="640" height="210" as="geometry" />
         </mxCell>
         <mxCell id="Wx5ZZBHen5_xB31L8kOz-20" value="反欺诈系统模型" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};treeFolding=1;treeMoving=1;" vertex="1" parent="Wx5ZZBHen5_xB31L8kOz-18">
           <mxGeometry x="252.5" width="100" height="40" as="geometry" />
@@ -135,6 +135,36 @@
             <mxPoint x="939.9999999999995" y="374.4099999999998" as="sourcePoint" />
             <mxPoint x="1070" y="374" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Wx5ZZBHen5_xB31L8kOz-33" value="模型分析训练" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="444.5" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wx5ZZBHen5_xB31L8kOz-34" value="模型在线更新" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wx5ZZBHen5_xB31L8kOz-43" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.uTurnArrow;dy=11;arrowHead=43;dx2=25;direction=south;flipV=1;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="480" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Wx5ZZBHen5_xB31L8kOz-44" value="支持A/B测试" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="525" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Wx5ZZBHen5_xB31L8kOz-46" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#8F8F8F;entryX=0.176;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Wx5ZZBHen5_xB31L8kOz-33" target="Wx5ZZBHen5_xB31L8kOz-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="344.99999999999955" y="384.9999999999998" as="sourcePoint" />
+            <mxPoint x="489.99999999999955" y="384.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wx5ZZBHen5_xB31L8kOz-47" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#8F8F8F;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Wx5ZZBHen5_xB31L8kOz-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="513.6980454153495" y="519.9999999999998" as="sourcePoint" />
+            <mxPoint x="930" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wx5ZZBHen5_xB31L8kOz-48" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.uTurnArrow;dy=11;arrowHead=43;dx2=25;direction=south;flipV=1;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="459.5" y="580" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Wx5ZZBHen5_xB31L8kOz-49" value="离线评估" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="620" width="75" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
